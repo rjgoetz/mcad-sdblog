@@ -2,9 +2,9 @@
 // endbower
 
 body {
-  background: #fafafa;
+  background: #fff;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #333;
+  color: #000;
 }
 
 .hero-unit {
@@ -13,7 +13,7 @@ body {
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  background-color: #eee;
+  background-color: BLACK;
   border-radius: 6px;
   padding: 60px;
   h1 {
@@ -26,6 +26,6 @@ body {
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
-  color: #000;
+  color: white;
   padding: 0.2em 0;
 }
