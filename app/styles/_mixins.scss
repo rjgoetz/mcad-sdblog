@@ -16,3 +16,7 @@
 	display: table;
 	clear: both;
 }
+
+@mixin linebreak() {
+	display: block;
+}

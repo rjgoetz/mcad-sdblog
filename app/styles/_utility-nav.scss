@@ -1,2 +1,27 @@
 // _utility-nav.scss
 
+.utility-nav {
+  font-size: 0.7em;
+  span {
+    @include linebreak;
+  }
+  ul {
+    @include clearfix;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 1px solid red;
+  }
+  li {
+    float: left;
+    margin-left: 1em;
+    padding: 0.5em;
+    border-left: .125em solid $grey-light;
+  }
+  a {
+    display: inline-block;
+    color: $grey-light;
+    text-decoration: none;
+    padding-right: 4em;
+  }
+}
