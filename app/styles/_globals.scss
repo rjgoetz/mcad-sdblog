@@ -14,9 +14,34 @@ body {
   background: $white;
   font-family: $font-stack;
   color: $black;
-  max-width: 960 / 16 * 1em;
-  margin: 4em auto;
+  max-width: 1136 / 16 * 1em;
+  margin: 3em auto;
 }
 img {
   max-width: 100%;
+}
+
+.main-header {
+  margin: 0 1em 4em 1em;
+  div {
+    float: right;
+  }
+  .mcad-logo {
+    float: right;
+  }
+  aside {
+    float: right;
+  }
+  nav {
+    float: right;
+  }
+}
+
+main {
+  width: 100%;
+  @include clearfix;
+}
+
+.lower-nav {
+  @include clearfix;
 }

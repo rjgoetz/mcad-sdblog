@@ -6,8 +6,9 @@
   float: left;
   color: $white;
   font-size: .8em;
-  width: 24em;
   height: 24em;
+  margin: 0 0 1em 1em;
+  border: .125em solid $grey-lighter;
   header {
     position: absolute;
     padding: 2em;

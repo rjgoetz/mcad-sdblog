@@ -1,7 +1,9 @@
 // _blog-title.scss
 
 .blog-title {
-	max-width: 12em;
+	display: inline-block;
+	margin: 0;
+	max-width: 13em;
 	line-height: 1;
 	font-size: 1.825em;
 	.logo-sdo {
