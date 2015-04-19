@@ -1,6 +1,8 @@
 // _page-footer.scss
 
 .page-footer {
+  margin: 0 1em;
+  border-top: .0625em solid $grey-lighter;
   p {
     font-size: .8em;
   }

@@ -44,4 +44,14 @@ main {
 
 .lower-nav {
   @include clearfix;
+  font-size: .9em;
+  margin: 0 1em 4em 1em;
+  padding-right: .5em;
+  border-right: .125rem solid $black;
+  a {
+    text-decoration: none;
+    &:hover {
+      color: magenta;
+    }
+  }
 }
