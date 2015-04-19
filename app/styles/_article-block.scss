@@ -1,14 +1,13 @@
-// _article-block.scss
+// _article-block.scss,
+// .biomimicry, .nat-leader, .innov-ent, .green-design, .ma-program
+
 
 .article-block {
+  float: left;
   color: $white;
-  background: linear-gradient($biomimicry-magenta, $transparent);
   font-size: .8em;
   width: 24em;
   height: 24em;
-  &:hover {
-    background: $biomimicry-magenta-solid;
-  }
   header {
     position: absolute;
     padding: 2em;
@@ -33,5 +32,47 @@
     display: block;
     width: 100%;
     height: 100%;
+  }
+}
+
+.biomimicry {
+  background: linear-gradient($biomimicry-magenta, $transparent);
+  &:hover {
+    background: $biomimicry-magenta;
+  }
+}
+
+.nat-leader {
+  background: linear-gradient($nat-leader-blue, $transparent);
+  &:hover {
+    background: $nat-leader-blue;
+  }
+}
+
+.eco-careers {
+  background: linear-gradient($eco-careers-yellow, $transparent);
+  &:hover {
+    background: $eco-careers-yellow;
+  }
+}
+
+.innov-ent {
+  background: linear-gradient($innov-ent-green, $transparent);
+  &:hover {
+    background: $innov-ent-green;
+  }
+}
+
+.green-design {
+  background: linear-gradient($green-design-red, $transparent);
+  &:hover {
+    background: $green-design-red;
+  }
+}
+
+.ma-program {
+  background: linear-gradient($ma-program-purple, $transparent);
+  &:hover {
+    background: $ma-program-purple;
   }
 }
