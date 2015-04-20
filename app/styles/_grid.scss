@@ -11,3 +11,20 @@
 .col1-4 {
   width: 25%;
 }
+
+*.row {
+  margin-bottom: .75em;
+  &:after {
+    @include clearfix;
+  }
+}
+
+
+div[class*='col'] {
+  float: left;
+  padding-left: .75em;
+}
+
+div[class*='col']:last-of-type {
+  padding-right: .75em;
+}

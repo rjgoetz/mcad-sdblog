@@ -14,15 +14,20 @@ body {
   background: $white;
   font-family: $font-stack;
   color: $black;
-  max-width: 1136 / 16 * 1em;
+}
+
+body#wrapper {
+  max-width: 71em;
   margin: 3em auto;
 }
+
 img {
   max-width: 100%;
 }
 
 .main-header {
-  margin: 0 1em 4em 1em;
+  padding-left: .75em;
+  margin-bottom: 4em;
   div {
     float: right;
   }
@@ -37,14 +42,14 @@ img {
 .mcad-logo {
   position: relative;
   top: .9em;
-  margin-right: 1em;
+  margin-right: .35em;
   background: url('../images/MCAD_logo_black_600px.png') no-repeat;
   background-size: 6em auto;
   width: 6em;
   height: 1.3em;
   opacity: .4;
   &:hover {
-    opacity: initial;
+  opacity: initial;
   }
   a {
     display: block;
@@ -56,15 +61,10 @@ img {
   }
 }
 
-main {
-  width: 100%;
-  @include clearfix;
-}
-
 .lower-nav {
   @include clearfix;
   font-size: .9em;
-  margin: 0 1em 4em 1em;
+  margin: 0 .75em 4em .75em;
   padding-right: .5em;
   border-right: .125rem solid $black;
   a {

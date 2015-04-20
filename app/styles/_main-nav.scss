@@ -23,6 +23,9 @@
 		&:hover {
 			border-bottom: 0.4em solid $black;
 		}
+		&:last-of-type {
+			margin-right: 0;
+		}
 	}
 	a {
 		display: inline-block;

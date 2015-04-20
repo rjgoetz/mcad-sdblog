@@ -3,26 +3,24 @@
 
 
 .article-block {
-  float: left;
   color: $white;
   font-size: .8em;
   height: 24em;
-  margin: 0 0 1em 1em;
   border: .125em solid $grey-lighter;
   header {
     position: absolute;
-    padding: 2em;
+    margin: 1em;
   }
   p {
     margin: 0;
+    max-width: 60%;
     display: inline-block;
   }
   time {
     float: right;
   }
   h2 {
-    margin: .0625em 0;
-    font-size: 2.2em;
+    font-size: 2em;
   }
   img {
     z-index: -10;
